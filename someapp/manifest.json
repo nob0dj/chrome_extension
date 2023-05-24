@@ -1,0 +1,12 @@
+{
+  "name": "Hello World!",
+  "description": "My first Chrome App - Hello World",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "shqkel-16.png", "192": "shqkel-192.png" }
+}
