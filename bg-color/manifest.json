@@ -1,0 +1,13 @@
+{
+  "name": "Background Color",
+  "description": "페이지의 백그라운드 컬러를 변경",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["./style.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
